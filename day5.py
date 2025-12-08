@@ -20,3 +20,18 @@ def fib(n):
     return fib(n-1)+fib(n-2)
 n=6
 print(fib(n))
+
+
+# Fibonacci sum using recursion
+def fib(n):
+    if n == 0 or n == 1:
+        return n
+    return fib(n-1) + fib(n-2)
+
+def fib_sum(n):
+    if n == 0:
+        return 0
+    return fib(n) + fib_sum(n-1)
+
+n = 6
+print(fib_sum(n))
