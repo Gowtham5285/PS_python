@@ -1,13 +1,13 @@
 # Insertion Sort 
-# s=[7,2,3,60,1]
-# for i in range(1,len(s)):
-#     key=s[i]
-#     j=i-1
-#     while j>=0 and s[j]>key:
-#         s[j+1]=s[j]
-#         j-=1
-#     s[j+1]=key
-# print(s)
+s=[7,2,3,60,1]
+for i in range(1,len(s)):
+    key=s[i]
+    j=i-1
+    while j>=0 and s[j]>key:
+        s[j+1]=s[j]
+        j-=1
+    s[j+1]=key
+print(s)
 # single unique element in the duplicate elements in a list
 # approach-1
 # l=[2,3,3,4,7,1,4,1,2]
